@@ -203,3 +203,34 @@ header nav ul li.btn a:hover {
     width: 100%;
     margin-bottom: 30px;
 }
+
+.features {
+    background: url('/img/background.png') no-repeat center center fixed;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.features h3, 
+.features p {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 800;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features h3 {
+    font-size: 30px;
+} 
+
+.features .info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.features .info .block {
+    text-align: center;
+    width: 30%;
+    margin: 30px 0;
+}
