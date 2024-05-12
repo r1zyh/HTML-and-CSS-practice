@@ -294,6 +294,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
 
 .email-info h4 {
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .email .block input {
@@ -318,6 +319,6 @@ header nav ul li.btn a:hover, .email .block button:hover {
     border: 0;
     padding: 13px 30px;
     position: absolute;
-    bottom: 67px;
+    bottom: 77px;
     right: 50px;
 }
