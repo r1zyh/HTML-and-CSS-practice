@@ -144,18 +144,18 @@ header nav ul li.btn a:hover {
     font-weight: 600;
 }
 
-.trending .see-all {
+.trending .see-all, .projects .see-all {
     font-size: 20px;
     font-weight: 500;
     border-radius: 10px;
     background-color: #25211D;
     padding: 12px 23px;
-    float: right;
     display: block;
+    float: right;
     transition: all 500ms ease;
 }
 
-.trending .see-all:hover {
+.trending .see-all:hover, .projects .see-all:hover {
     transform: scale(1.1);
 }
 
@@ -235,12 +235,33 @@ header nav ul li.btn a:hover {
     margin: 30px 0;
 }
 
+.projects {
+    padding: 100px 0;
+}
+
 .projects h3, 
 .projects p {
     text-align: center;
-    margin-bottom: 20px;
-    width: 800;
-    margin-left: 310px;
-    margin-right: 310px;
 }
 
+.projects h3 {
+    padding: 15px 0;
+}
+
+.projects p {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.projects .images {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.projects .see-all {
+    float: none;
+    text-align: center;
+    width: 70px;
+    margin: 72px auto;
+}
