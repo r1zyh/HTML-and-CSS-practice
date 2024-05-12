@@ -18,6 +18,10 @@ img {
    max-width: 100%;
 }
 
+h3 {
+    font-size: 30px;
+}
+
 .wrapper {
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(26,14,1,1) 100%);
@@ -138,7 +142,6 @@ header nav ul li.btn a:hover {
 
 .trending h3 {
     font-weight: 600;
-    font-size: 31px;
 }
 
 .trending .see-all {
@@ -219,9 +222,6 @@ header nav ul li.btn a:hover {
     margin-right: 310px;
 }
 
-.features h3 {
-    font-size: 30px;
-} 
 
 .features .info {
     display: flex;
@@ -233,5 +233,14 @@ header nav ul li.btn a:hover {
     text-align: center;
     width: 25%;
     margin: 30px 0;
+}
+
+.projects h3, 
+.projects p {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 800;
+    margin-left: 310px;
+    margin-right: 310px;
 }
 
