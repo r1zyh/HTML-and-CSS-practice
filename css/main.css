@@ -332,6 +332,7 @@ footer {
 footer .blocks {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 footer .blocks p {
@@ -346,7 +347,6 @@ footer .blocks h4 {
 
 footer .blocks ul {
     list-style: none;
-
 }
 
 footer .blocks ul li {
@@ -361,15 +361,21 @@ footer hr {
     background: #ccc;
 }
 
-footer p {
-    text-align: center;
-}
-
 footer .contacts {
     display: flex;
     align-items: flex-end;
 }
 
 footer .logo-text {
-   text-align: left;
+   position: absolute;
+   bottom: -4px
+}
+
+footer .logo {
+    position: absolute;
+    top: -12px;
+}
+
+footer .blocks .logo-info {
+    align-content: center;
 }
