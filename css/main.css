@@ -447,6 +447,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
     border-radius: 14px;
     height: 503px;
     width: 60%;
+    margin-top: 40px;
 }
 
 .about-info img {
@@ -473,6 +474,48 @@ header nav ul li.btn a:hover, .email .block button:hover {
 .about-info .block h2 {
     font-size: 28px;
 }
+
+.our-team {
+    padding: 80px 0;
+}
+
+.our-team h2 {
+    margin-left: 40px;
+}
+
+.our-team .blocks {
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    gap: 28px
+}
+
+.our-team .blocks .block {
+    display: flex;
+    flex-direction: column;
+    background-color: #1C140F;
+    align-items: center;
+    border-radius: 14px;
+    width: 295px;
+    height: 253px;
+    justify-content: center;
+
+}
+
+.our-team .blocks .block h3 {
+    font-size: 19px;
+    margin: 4px 0;
+}
+
+.our-team .blocks .block p {
+    margin: 4px 0;
+}
+
+.our-team .blocks .block img {
+    height: 123px;
+    width: 123px;
+}
+
 
 footer {
     background: #000;
