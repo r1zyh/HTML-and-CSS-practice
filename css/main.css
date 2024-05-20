@@ -668,3 +668,9 @@ footer .logo {
 footer .blocks .logo-info {
     align-content: center;
 }
+
+footer .copyright {
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 25px;
+}
