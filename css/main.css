@@ -62,19 +62,32 @@ header nav ul li {
 }
 
 header nav ul li.active::after {
-   content: '';
-   display: block;
-   width: 40px;
-   height: 5px;
-   background-color: #DC7000;
-   position: relative;
-   top: 10px;
-   left: -15px;
+    content: '';
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: #DC7000;
+    border-radius: 2px;
+    position: relative;
+    top: 10px;
+    left: -15px;
+}
 
+header nav ul li.active::before {
+    content: '';
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #DC7000;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 30px;
 }
 
 header nav ul li:not(.active):not(.btn) a:hover{
-border-bottom: 5px solid #DC7000;
+    border-bottom: 5px solid #DC7000;
+    
 }
 
 header nav ul li.btn a, .email .block button {
@@ -522,6 +535,83 @@ header nav ul li.btn a:hover, .email .block button:hover {
     width: 123px;
 }
 
+.hero-portfolio {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.hero-portfolio .info {
+    text-align: center;
+    margin: 45px 0;
+}
+
+.hero-portfolio .info .breadcrumbs__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 8px;
+}
+
+.hero-portfolio .info h1 {
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.hero-portfolio .blocks {
+    display: flex;
+    text-align: center;
+    background-color: #1C140F;
+    padding: 30px 0;
+    border-radius: 7px;
+    width: 80%;
+}
+
+.hero-portfolio .blocks .block {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 30px 10px;
+    margin-left: 100px;
+    width: 33.33%;
+    gap: 30px;
+    
+}
+
+.hero-portfolio .blocks .block:nth-child(2)::before,
+.hero-portfolio .blocks .block:nth-child(2)::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+}
+
+.hero-portfolio .blocks .block:nth-child(2)::before {
+    left: -100px;
+}
+
+.hero-portfolio .blocks .block:nth-child(2)::after {
+    right: -15px;
+}
+
+.hero-portfolio .text {
+    width: fit-content;
+    text-align: left;
+}
+
+.hero-portfolio .text h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.hero-portfolio .text p {
+    font-size: 20px;
+}
 
 footer {
     background: #000;
