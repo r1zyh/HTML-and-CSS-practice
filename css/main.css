@@ -540,6 +540,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   margin-bottom: 100px;
 }
 
 .hero-portfolio .info {
@@ -567,6 +568,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
     padding: 30px 0;
     border-radius: 7px;
     width: 80%;
+    
 }
 
 .hero-portfolio .blocks .block {
@@ -611,6 +613,53 @@ header nav ul li.btn a:hover, .email .block button:hover {
 
 .hero-portfolio .text p {
     font-size: 20px;
+}
+
+.video-player  {
+    position: relative;
+    height: 367px;
+    margin-bottom: 80px;
+}
+
+.video-player .info {
+    width: 430px;
+    height: 362px;
+    float: right;
+}
+
+.video-player .description h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.video-player p {
+    font-size: 14px;
+}
+
+.video-player .blocks {
+    padding: 40px 0;
+}
+
+.video-player .blocks .block {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.video-player span img {
+    width: 800px;
+    height: 355px;
+    border-radius: 14px;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+
+}
+
+.video-player .blocks .block img {
+    width: auto;
+    height: auto;
 }
 
 footer {
