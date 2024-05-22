@@ -472,6 +472,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
 .about-info img {
     bottom: 0;
     position: absolute;
+    left: 60px;
 }
 
 .about-info .block {
@@ -479,7 +480,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
     display: flex;
     flex-direction: column;
     top: 120px; 
-    right: 270px;
+    right: 50px;
     width: 536px;
     margin: 20px 0;
 }
@@ -723,3 +724,221 @@ footer .copyright {
     font-size: 13px;
     padding-bottom: 25px;
 }
+
+@media (max-width: 1600px) {
+    .container {
+       width: 1400px;
+    }
+    header nav ul {
+      width: 92%;
+    }
+    .email .block {
+        width: 92%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .container {
+       width: 1200px;
+    }
+    .our-team {
+        width: 96%;
+    }
+    .video-player span img {
+        width: 700px;
+     }
+    .work .blocks .block {
+        padding: 30px 10px;
+        width: 378px;
+        height: 300px;
+    }
+    .about-info {
+        padding-left: 0;
+        font-size: 1.5vw;
+    }
+    .about-info .block {
+       top: 100px;
+       right: 10px;
+       width: 401px;
+       height: 350px;
+    }
+
+    .about-info img {
+        width: 450px;
+    }
+
+    .hero-about .info  {
+        width: 600px;
+    }
+    .hero-about img {
+        top: 60px;
+        right: 40px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .about-info {
+        width: 90%;
+        height: 450px;
+    }
+    .about-info img {
+        width: 450px;
+        bottom: 0;
+
+    }
+    .about-info .block {
+        top: 100px;
+        width: 400px;
+        right: 60px;
+    }
+    .about-info .block h2 {
+        font-size: 2vw;
+    }
+    .work {
+        width: 90%;
+    }
+    .work .blocks .block {
+        margin-left: 5px;
+        padding: 20px 10px;
+        width: 30% ;
+    }
+    .work .blocks .block p {
+        width: 280px;
+    }
+    .email .block {
+        width: 92%;
+    }
+    
+   }
+   
+   @media (max-width: 1200px) {
+    .container {
+       width: 1000px;
+    }
+    body {
+       word-spacing: 0.5vw;
+    }
+    .email .block button {
+        bottom: 102px;
+        right: 40px;
+     }
+     .video-player span img {
+        width: 500px;
+     }
+     .projects .images img {
+        width: 250px;
+    }
+    .projects .see-all {
+        width: 60px;
+        height: auto;
+        font-size: 1.5vw;
+    }
+    .trending .games .block img {
+        max-width: 80%;
+    }
+    .hero img {
+        top: -100px;
+        width: 400px;
+    }
+    .work .blocks .block {
+        padding: 10px 5px;
+        width: 380px;
+        font-size: 1.3vw;
+        margin-left: 10px;
+    }
+
+    .work .blocks .block p {
+        width: 270px;
+
+    }
+
+    .hero-about img {
+        right: -29px;
+        width: 500px;
+        height: 500px;
+    }
+    .hero-about .info {
+        width: 400px;
+        font-size: 1.5vw;
+    }
+    .email .block {
+        width: 92%;
+    }
+}
+
+    @media (max-width: 1000px) {
+        .container {
+           width: 750px;
+        }
+        body {
+            font-size: 1.5vw;
+            word-spacing: 0.5vw;
+         }
+         .hero-portfolio .blocks {
+            width: 100%;
+         }
+         header {
+            width: 100%;
+            font-size: 1.5vw;
+         }
+         footer .blocks {
+            width: 100%;
+         }
+         .email .block button {
+            bottom: 127px;
+            right: 30px;
+         }
+         .video-player span img {
+            width: 400px;
+            height: auto;
+         }
+         .video-player .info {
+            width: 300px;
+         }
+         .projects .images img {
+            width: 250px;
+        }
+        .projects .see-all {
+            width: 40px;
+            height: auto;
+        }
+        .hero img {
+            top: -100px;
+            width: 400px;
+        }
+        .features h3, .features .features-info__text {
+            margin: 0 0;
+        }
+        .hero-about .info  {
+            width: 300px;
+        }
+        .hero-about img {
+            top: 60px;
+            right: -80px;
+            width: 400px;
+            height: 400px;
+        }
+        .about-info img {
+            width: 350px;
+            top: 130px;
+
+        }
+        .about-info .block {
+            top: 100px;
+            width: 300px;
+        }
+        .about-info .block h2 {
+            font-size: 2vw;
+        }
+        .work .blocks .block {
+            margin-left: 10px;
+            padding: 20px 10px;
+        }
+        .work .blocks .block p {
+            width: 240px;
+        }
+        .email .block {
+            width: 92%;
+        }
+       }
+       
