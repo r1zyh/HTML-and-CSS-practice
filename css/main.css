@@ -619,7 +619,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
 .video-player  {
     position: relative;
     height: 367px;
-    margin-bottom: 80px;
+    margin-bottom: 102px;
 }
 
 .video-player .info {
@@ -653,7 +653,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
     height: 355px;
     border-radius: 14px;
     position: absolute;
-    left: 30px;
+    left: 80px;
     top: 10px;
 
 }
@@ -661,6 +661,49 @@ header nav ul li.btn a:hover, .email .block button:hover {
 .video-player .blocks .block img {
     width: auto;
     height: auto;
+}
+
+.articles {
+    margin-bottom: 102px;
+}
+
+.articles__block {
+    display: flex;
+    margin: 80px 45px;
+    justify-content: space-between;
+}
+
+.articles__block--info {
+    width: 536px;
+    height: 464px;
+    
+}
+
+.article__preview img {
+    width: 496px;
+    height: 489px;
+    padding-top: 50px;
+    margin: 0 45px;
+}
+
+.article__block--text,
+.button__more {
+    margin: 46px 45px;
+
+}
+
+h2.article__block--text {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+p.article__block--text {
+    font-size: 17px;
+}
+
+.button__more {
+    background-color: #DC7000;
+    padding: 16px 42px;
 }
 
 footer {
