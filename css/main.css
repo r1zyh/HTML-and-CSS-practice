@@ -541,12 +541,16 @@ header nav ul li.btn a:hover, .email .block button:hover {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   margin-bottom: 100px;
+   margin-bottom: 77px;
+}
+
+.breadcrumbs.portfolio {
+    margin-bottom: 15px;
 }
 
 .hero-portfolio .info {
     text-align: center;
-    margin: 45px 0;
+    margin-bottom: 45px;
 }
 
 .hero-portfolio .info .breadcrumbs__list {
@@ -559,7 +563,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
 .hero-portfolio .info h1 {
     font-size: 33px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 13px;
 }
 
 .hero-portfolio .blocks {
@@ -619,7 +623,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
 .video-player  {
     position: relative;
     height: 367px;
-    margin-bottom: 102px;
+    margin-bottom: 182px;
 }
 
 .video-player .info {
