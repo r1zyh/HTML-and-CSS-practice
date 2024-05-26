@@ -345,6 +345,10 @@ header nav ul li.btn a:hover, .email .block button:hover {
     right: 50px;
 }
 
+.email .block.portfolio {
+    background-color: #1B1B1B;
+}
+
 .hero-about {
     position: relative;
 }
@@ -709,6 +713,12 @@ p.article__block--text {
     background-color: #DC7000;
     padding: 16px 42px;
 }
+
+
+/* 
+Блок с Ревью
+*/
+
 
 footer {
     background: #000;
