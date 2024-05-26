@@ -719,6 +719,78 @@ p.article__block--text {
 Блок с Ревью
 */
 
+.reviews {
+    height: 738px;
+    background-color: #1C140F;
+    border-radius: 14px;
+}
+
+.reviews__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews__header h2 {
+    font-size: 2.2em;
+    padding-top: 88px;
+    padding-bottom: 20px;
+    width: 448px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.reviews__header p {
+    font-size: 0.9em;
+    width: 555px;
+    text-align: center;
+}
+
+.review__list {
+    list-style: none;
+    margin-top: 68px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.review__card {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 30px;
+    color: #fff;
+    width: 400px;
+    height: 230px;
+    margin: 10px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.review__card.active {
+   border: 2px solid #DC7000;
+   background-color: #0F0901;
+}
+
+.reviewer__name {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.reviewer__location {
+    font-size: 0.9em;
+    color: #4F5665;
+}
+
+.review__text {
+    font-size: 0.9em;
+}
+
+.reviewer__avatar {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+
 
 footer {
     background: #000;
