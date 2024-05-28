@@ -784,6 +784,8 @@ p.article__block--text {
 
 .review__text {
     font-size: 0.9em;
+    line-height: 187.5%;
+    width: 340px;
 }
 
 .reviewer__avatar {
@@ -798,32 +800,28 @@ p.article__block--text {
     font-size: 1.1em;
 }
 
-.review__info p {
-    font-size: 0.9em;
-}
-
 .review__card--header {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.review__text {
-    margin: 0;
-    font-size: 0.9em;
-    line-height: 187.5%;
-    padding: 10px;
+.review__info {
+    flex-grow: 1;
 }
 
 .review__rating {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     font-size: 1.1em;
 }
 
 .rating__star {
     color: #FEA250;
+    font-size: 1.2em;
 }
 
 
