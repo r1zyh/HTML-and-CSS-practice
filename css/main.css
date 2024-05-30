@@ -971,21 +971,50 @@ footer .copyright {
     padding-bottom: 25px;
 }
 
+
 @media (max-width: 1600px) {
     .container {
-       width: 1400px;
+       width: 92%;
     }
     header nav ul {
       width: 92%;
     }
     .email .block {
+        width: 90%;
+    }
+    .review__card {
+        width: 85%;
+    }
+    .email .block .portfolio {
         width: 92%;
     }
+    .video-player {
+        width: 96%;
+    }
+    footer .blocks {
+        width: 92%;
+    }
+    .email h3 {
+        width: 92%;
+    }
+    .email p {
+        width: 92%;
+    }
+    .articles__blocks {
+        width: 92%;
+    }
+    .articles {
+        width: 92%;
+    }
+    .hero-portfolio {
+        width: 92%;
+    }
+   
 }
 
 @media (max-width: 1400px) {
     .container {
-       width: 1200px;
+       width: 92%;
     }
     .our-team {
         width: 96%;
@@ -1054,6 +1083,16 @@ footer .copyright {
     .email .block {
         width: 92%;
     }
+    .video-player .banner img {
+        width: 50%;
+    }
+    .review__list {
+        width: 92%;
+        gap: 10px
+    }
+    .review__card {
+        width: 80%;
+    }
     
    }
    
@@ -1109,6 +1148,25 @@ footer .copyright {
     }
     .email .block {
         width: 92%;
+    }
+    .video-player .banner img {
+        width: 40%;
+    }
+    .articles__block {
+        margin-bottom: 200px;
+    }
+    .review__list {
+        gap: 10px;
+    /* поправить отображение списка*/
+    }
+    .review__list li:nth-child(3) {
+        display: none;
+    }
+    .review__card {
+        width: 80%;
+    }
+    .review__text {
+        height: 100px;
     }
 }
 
@@ -1185,6 +1243,13 @@ footer .copyright {
         }
         .email .block {
             width: 92%;
+        }
+        .review__list {
+            width: 92%;
+            gap: 10px
+        }
+        .review__card {
+            width: 80%;
         }
        }
        
